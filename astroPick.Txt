@@ -1,0 +1,145 @@
+// Astrological sun sign picker
+{
+  "fields": [
+    { "name": "Aquarius", "value": ":aquarius:", "inline": true },
+    { "name": "Pisces", "value": ":pisces:", "inline": true },
+    { "name": "Aries", "value": ":aries:", "inline": true },
+    { "name": "Taurus", "value": ":taurus: ", "inline": true },
+    { "name": "Gemini", "value": ":gemini: ", "inline": true },
+    { "name": "Cancer", "value": ":cancer:", "inline": true },
+    { "name": "Leo", "value": ":leo:", "inline": true },
+    { "name": "Virgo", "value": ":virgo:", "inline": true },
+    { "name": "Libra", "value": ":libra:", "inline": true },
+    { "name": "Scorpio", "value": ":scorpius:", "inline": true },
+    { "name": "Sagittarius", "value": ":sagittarius:", "inline": true },
+    { "name": "Capricorn", "value": ":capricorn:", "inline": true }
+  ],
+  "title": "Astrological sun sign picker",
+  "description": "While the Astrology room is open to everyone to read, you will need to pick your astrological sun sign to participate in the chat.",
+  "color": 12118406,
+  "footer": {
+    "text": " Please select your astrological sun sign from the reactions on this message."
+  }
+}
+
+// Pronoun picker
+{
+    "fields": [
+      { "name": "He/His", "value": ":one:", "inline": true },
+      { "name": "She/Her", "value": ":two:", "inline": true },
+      { "name": "They/Them", "value": ":three:", "inline": true }
+    ],
+    "title": "Pronoun picker",
+    "description": "If you would like to let people know what pronoun you use, select it from the choices below.",
+    "color": 12118406,
+    "footer": {
+      "text": " Please select your pronoun from the reactions on this message."
+    }
+  }
+
+// Job Status picker
+{
+    "fields": [
+      { "name": "Business Owner", "value": ":pengiun:", "inline": true },
+      { "name": "Freelancer", "value": ":otter:", "inline": true },
+      { "name": "Open to Work", "value": ":goat:", "inline": true },
+      { "name": "Open to Network", "value": ":octopus:", "inline": true },
+      { "name": "Now Hiring", "value": ":regional_indicator_h:", "inline": true }
+    ],
+    "title": "The WHY picker",
+    "description": "We understand that you have joined our community for a reason. If you would like to tell everyone why you are here, please select your WHY(s) from the list. Feel free to select more than one. You can change your selection at any time.",
+    "color": 12118406,
+    "footer": {
+      "text": " Please select your WHY(s) from the reactions on this message."
+    }
+  }
+
+
+  // marketing specility picker MessageID: 813228466107056128
+  {
+    "fields": [
+      { "name": "Advertising", "value": ":one:", "inline": true },
+      { "name": "Analytics", "value": ":two:", "inline": true },
+      { "name": "Blogging", "value": ":three:", "inline": true },
+      { "name": "Branding", "value": ":four:", "inline": true },
+      { "name": "Content & Email", "value": ":five:", "inline": true },
+      { "name": "Generalist", "value": ":six:", "inline": true },
+      { "name": "PR/Media", "value": ":seven:", "inline": true },
+      { "name": "SEO/SEM", "value": ":eight:", "inline": true },
+      { "name": "Social Media", "value": ":nine:", "inline": true },
+      { "name": "Strategy", "value": ":regional_indicator_a:", "inline": true }
+    ],
+    "title": "The Marketing Specility picker",
+    "description": "We are all good at something. Let everyone know your Marketing specility, so we know who to call. You can select as many as are appropriate for you ",
+    "color": 12118406,
+    "footer": {
+      "text": " Please select your Marketing Specility(s) from the reactions on this message."
+    }
+  }
+
+/* the commands to add all the reactions to the specility message
+
+  !rr addmany 813228466107056128 
+  :one: Advertising
+  :two: Analytics
+  :three: Blogging
+  :four: Branding
+  :five: Content & Email
+  :six: Generalist
+  :seven: PR/Media
+  :eight: SEO/SEM
+  :nine: Social Media
+  :regional_indicator_a: Strategy
+
+*/
+
+{
+    "fields": [
+      { "name": "B2B", "value": ":one:", "inline": true },
+      { "name": "B2C", "value": ":two:", "inline": true },
+      { "name": "Business Development", "value": ":three:", "inline": true },
+      { "name": "Finance", "value": ":four:", "inline": true },
+      { "name": "Graphic Design", "value": ":five:", "inline": true },
+      { "name": "Healthcare", "value": ":six:", "inline": true },
+      { "name": "Hospitality", "value": ":seven:", "inline": true },
+      { "name": "Law", "value": ":eight:", "inline": true },
+      { "name": "Non-profit", "value": ":nine:", "inline": true },
+      { "name": "Other", "value": ":regional_indicator_a:", "inline": true },
+      { "name": "Programming/Design", "value": ":regional_indicator_b:", "inline": true },
+      { "name": "Project Management", "value": ":regional_indicator_c:", "inline": true },
+      { "name": "Sales", "value": ":regional_indicator_d:", "inline": true },
+      { "name": "Small Business", "value": ":regional_indicator_e:", "inline": true },
+      { "name": "Start-ups", "value": ":regional_indicator_f:", "inline": true },
+      { "name": "UI/UX", "value": ":regional_indicator_g:", "inline": true }
+      
+    ],
+    "title": "The Other Specility picker",
+    "description": "We are all good at something. Let everyone know your Other specilities, so we know who to call. You can select as many as are appropriate for you ",
+    "color": 12118406,
+    "footer": {
+      "text": " Please select your Other Specility(s) from the reactions on this message."
+    }
+  }
+
+  /* the commands to add all the reactions to the specility message
+
+  !rr addmany 813231193532530708 
+  :one: B2B
+  :two: B2C
+  :three: Business Development
+  :four: Finance
+  :five: Graphic Design
+  :six: Healthcare
+  :seven: Hospitality
+  :eight: Law
+  :nine: Non-profit
+  :regional_indicator_a: Other: (please let us know)
+  :regional_indicator_b: Programming/Design
+  :regional_indicator_c: Project Management
+  :regional_indicator_d: Sales
+  :regional_indicator_e: Small Business
+  :regional_indicator_f: Start-ups
+  :regional_indicator_g: UI/UX
+
+
+  */
